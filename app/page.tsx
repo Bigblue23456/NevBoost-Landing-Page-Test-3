@@ -169,7 +169,7 @@ export default function NevBoostHomepage() {
               ].map(({ title, desc, icon: Icon }, i)=> (
                 <Card key={i} className="rounded-2xl">
                   <CardHeader>
-                    <div className="h-10 w-10 rounded-xl bg-blue-100 text-blue-700 flex items=center justify-center">
+                    <div className="h-10 w-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center">
                       <Icon className="h-5 w-5"/>
                     </div>
                     <CardTitle className="mt-3">{title}</CardTitle>
